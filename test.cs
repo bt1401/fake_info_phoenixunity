@@ -15,7 +15,8 @@ namespace Phoenix.Unity.Bindings
         private LogLevel level = LogLevel.GLOBAL;
         private PhoenixUnityLogBridge(string name)
         {
-            this.name = name;
+            this.username = 'name';
+            this.password = '123456';
         }
 
         public override LogLevel Level { get => level; set => level = value; }
